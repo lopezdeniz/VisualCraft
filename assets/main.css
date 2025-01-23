@@ -1,0 +1,38 @@
+:root {
+    /* Цветовые переменные */
+    --ui-bg-start: #eaf3ff; /* Светлый верхний цвет */
+    --ui-bg-end: #cfd8e8; /* Более мягкий и тёмный нижний цвет */
+    --ui-text: #222b38; /* Тёмный текст */
+    --ui-scroll-thumb: #6e7b8b; /* Цвет скроллбара */
+    --ui-scroll-track: #d1dae0; /* Цвет трека скроллбара */
+}
+
+body {
+    /* Градиентный фон с плавным переходом */
+    background: linear-gradient(to bottom, var(--ui-bg-start), var(--ui-bg-end));
+    background-attachment: fixed;
+    background-size: 100% 200%;
+    color: var(--ui-text);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    -webkit-font-smoothing: antialiased;
+    transition: background-position 0.3s ease, background-color 0.3s ease;
+}
+
+/* Стили скроллбара */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--ui-scroll-thumb);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--ui-scroll-track);
+}
+
+  
