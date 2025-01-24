@@ -1,11 +1,15 @@
 <template>
-    <header class="header">
-      <div class="name">Deniz Lopez</div>
-      <div class="contacts">
-        <a href="mailto:example@example.com">example@example.com</a>
-        <a href="tel:+1234567890">+1 234 567 890</a>
-      </div>
-    </header>
+
+<header class="header">
+  <div class="container d-flex justify-content-between align-items-center">
+    <div class="name">Deniz Lopez</div>
+    <div class="contacts">
+      <a href="mailto:example@example.com">example@example.com</a>
+      <a href="tel:+1234567890" class="ms-3">+1 234 567 890</a>
+    </div>
+  </div>
+</header>
+
   </template>
   
   <script setup>
