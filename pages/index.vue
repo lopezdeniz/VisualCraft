@@ -1,22 +1,12 @@
 <template>
        <div class="my-container">
     <div class="container-fluid mt-5">
-        <nav class="navbar">
-  <form class="container-fluid justify-content-center text-center">
-    <button type="button" class="btn btn-outline-dark">Secondary</button>
-    <button type="button" class="btn btn-outline-dark">Secondary</button>
-    <button type="button" class="btn btn-outline-dark">Secondary</button>
-    <button type="button" class="btn btn-outline-dark">Secondary</button>
-    <button type="button" class="btn btn-outline-dark">Secondary</button>
-    <button type="button" class="btn btn-outline-dark">Secondary</button>
-    <button type="button" class="btn btn-outline-dark">Secondary</button>
-    <button type="button" class="btn btn-outline-dark">Secondary</button>
-  </form>
-</nav>
+ 
 
 
 
       <div class="row g-0">
+
         <div class="col-lg-4 col-md-6 col-12">
           <div id="carousel1" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
             <div class="carousel-inner">
@@ -49,7 +39,7 @@
                 <img src="/assets/img/5.jpg" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="/assets/img/8.jpg" class="d-block w-100" alt="...">
+                <img src="/assets/img/111a.jpg" class="d-block w-100" alt="...">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
@@ -129,11 +119,12 @@
           </div>
         </div>
   
+
         <div class="col-lg-4 col-md-6 col-12">
           <div id="carousel6" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="/assets/img/3a.jpg" class="d-block w-100" alt="...">
+                <img src="/assets/img/11a.jpg" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
                 <img src="/assets/img/6a.jpg" class="d-block w-100" alt="...">
@@ -150,6 +141,159 @@
             </button>
           </div>
         </div>
+
+
+
+        <div class="col-lg-4 col-md-6 col-12">
+          <div id="carousel7" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="/assets/img/1b.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/assets/img/2b.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/assets/img/3b.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel7" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel7" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+          </div>
+        </div>
+
+
+        <div class="col-lg-4 col-md-6 col-12">
+          <div id="carousel8" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="/assets/img/4b.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/assets/img/5b.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/assets/img/6b.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel8" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel8" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+          </div>
+        </div>
+
+
+        <div class="col-lg-4 col-md-6 col-12">
+          <div id="carousel9" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="/assets/img/7b.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/assets/img/8b.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/assets/img/9b.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel9" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel9" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+          </div>
+        </div>
+
+
+        <div class="col-lg-4 col-md-6 col-12">
+          <div id="carousel10" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="/assets/img/10b.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/assets/img/11b.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/assets/img/12b.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel10" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel10" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+          </div>
+        </div>
+
+
+        <div class="col-lg-4 col-md-6 col-12">
+          <div id="carousel6" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="/assets/img/13b.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/assets/img/14b.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/assets/img/15b.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel6" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel6" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+          </div>
+        </div>
+
+
+        <div class="col-lg-4 col-md-6 col-12">
+          <div id="carousel6" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="/assets/img/16b.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/assets/img/17b.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/assets/img/18b.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel6" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel6" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       </div>
     </div>
   
@@ -200,5 +344,10 @@
     margin-top: 0.5rem !important;
     margin-bottom: 0.5rem !important;
 }
+
+
+
+
+
   </style>
   
