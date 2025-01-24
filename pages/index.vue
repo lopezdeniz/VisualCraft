@@ -95,7 +95,7 @@
                 <img src="/assets/img/4a.jpg" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="/assets/img/3.jpg" class="d-block w-100" alt="...">
+                <img src="/assets/img/7a.jpg" class="d-block w-100" alt="...">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carousel4" data-bs-slide="prev">
@@ -117,7 +117,7 @@
                 <img src="/assets/img/5a.jpg" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="/assets/img/8.jpg" class="d-block w-100" alt="...">
+                <img src="/assets/img/8a.jpg" class="d-block w-100" alt="...">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carousel5" data-bs-slide="prev">
@@ -139,7 +139,7 @@
                 <img src="/assets/img/6a.jpg" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="/assets/img/9.jpg" class="d-block w-100" alt="...">
+                <img src="/assets/img/9a.jpg" class="d-block w-100" alt="...">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carousel6" data-bs-slide="prev">
@@ -164,15 +164,28 @@
     margin: 0px auto;
 
   }
+
+  
+
+
+
   .carousel-inner {
     aspect-ratio: 1 / 1; /* Квадратные изображения */
   }
   
   .carousel-inner img {
-    object-fit: cover; /* Обрезать изображение для заполнения квадрата */
-    height: 100%;
-    width: 100%;
-  }
+  object-fit: cover; /* Обрезать изображение для заполнения контейнера */
+  height: 100%; /* Растянуть на весь доступный контейнер */
+  width: 100%; /* Растянуть на всю ширину контейнера */
+  display: block; /* Убрать нежелательные пробелы между элементами */
+}
+
+
+
+
+
+
+
   
   .g-0 > [class*='col'] {
     display: flex;
