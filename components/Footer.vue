@@ -10,13 +10,14 @@
         <!-- Правая часть: иконки Telegram и WhatsApp -->
         <div class="social-icons d-flex gap-2">
         <a href="https://t.me/yourtelegram" target="_blank" class="text-dark">
-          <i class="bi bi-telegram"></i>
+          <i class="bi bi-telegram" style="font-size: 2rem;"></i>
+
         </a>
         <a href="https://wa.me/1234567890" target="_blank" class="text-dark">
-          <i class="bi bi-whatsapp"></i>
+          <i class="bi bi-whatsapp"style="font-size: 2rem;"></i>
         </a>
         <a href="https://instagram.com/yourinstagram" target="_blank" class="text-dark">
-          <i class="bi bi-instagram"></i>
+          <i class="bi bi-instagram"style="font-size: 2rem;"></i>
         </a>
       </div>
       </div>
