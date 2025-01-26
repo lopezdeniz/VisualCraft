@@ -17,7 +17,11 @@ export default defineNuxtConfig({
       link: [
         {
           rel: 'stylesheet',
-          href: 'https://unpkg.com/ionicons@5.5.2/dist/ionicons.min.css' // Ionicons
+          href: 'https://unpkg.com/bootstrap-icons/font/bootstrap-icons.css' // Bootstrap Icons
+        },
+        {
+          rel: 'stylesheet',
+          href: 'https://unpkg.com/ionicons@5.5.2/dist/ionicons.min.css' // Ionicons (если нужно оставить)
         }
       ],
       script: [
@@ -29,16 +33,3 @@ export default defineNuxtConfig({
     }
   }
 });
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -237,7 +237,7 @@
 
 
         <div class="col-lg-4 col-md-6 col-12">
-          <div id="carousel6" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+          <div id="carousel11" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img src="/assets/img/13b.jpg" class="d-block w-100" alt="...">
@@ -249,10 +249,10 @@
                 <img src="/assets/img/15b.jpg" class="d-block w-100" alt="...">
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carousel6" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel11" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carousel6" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel11" data-bs-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
             </button>
           </div>
@@ -260,7 +260,7 @@
 
 
         <div class="col-lg-4 col-md-6 col-12">
-          <div id="carousel6" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+          <div id="carousel12" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img src="/assets/img/16b.jpg" class="d-block w-100" alt="...">
@@ -272,10 +272,10 @@
                 <img src="/assets/img/18b.jpg" class="d-block w-100" alt="...">
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carousel6" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel12" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carousel6" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel12" data-bs-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
             </button>
           </div>

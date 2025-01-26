@@ -22,11 +22,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 20px 20px;
     background-color: #eaf3ff; /* Светлый фон шапки */
     color: #222b38; /* Цвет текста */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Тень */
-    position: sticky;
+    position: relative;
     top: 0;
     z-index: 1000;
   }
