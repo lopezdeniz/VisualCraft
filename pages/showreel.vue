@@ -85,8 +85,9 @@
   }
   .video-frame {
     position: relative;
-    width: 500px;
-    height: 600px;
+    width: 100%;
+    max-width: 500px;
+    aspect-ratio: 5 / 6; /* Пропорция 500x600 */
     overflow: hidden;
     border-radius: 50%;
     display: flex;
