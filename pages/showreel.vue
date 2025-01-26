@@ -2,71 +2,71 @@
     <div class="container text-center justify-content-center">
       <h2 id="port" class="text-center text-uppercase color mb-4 top-20 text-white">Showreel</h2>
   
-      <div class="row row-cols-1 row-cols-md-3 g-3">
-        <div class="col">
-          <iframe 
-            src="https://player.vimeo.com/video/813543302?h=1271de0c61&autoplay=1&loop=1&muted=1&background=1" 
-            frameborder="0" 
-            class="embed-responsive-item w-100" 
-            style="height: 564px;" 
-            allow="autoplay; fullscreen; picture-in-picture" 
-            allowfullscreen>
-          </iframe>
+      <div class="row gx-0 justify-content-center">
+        <div class="col-4 d-flex justify-content-center align-items-center">
+          <div class="video-frame">
+            <iframe 
+              src="https://player.vimeo.com/video/813543302?h=1271de0c61&autoplay=1&loop=1&muted=1&background=1" 
+              frameborder="0" 
+              allow="autoplay; fullscreen; picture-in-picture" 
+              allowfullscreen>
+            </iframe>
+          </div>
         </div>
   
-        <div class="col">
-          <iframe 
-            src="https://player.vimeo.com/video/813543424?h=3e9f0fcc84&autoplay=1&loop=1&muted=1&background=1" 
-            frameborder="0" 
-            class="embed-responsive-item w-100" 
-            style="height: 564px;" 
-            allow="autoplay; fullscreen; picture-in-picture" 
-            allowfullscreen>
-          </iframe>
+        <div class="col-4 d-flex justify-content-center align-items-center">
+          <div class="video-frame">
+            <iframe 
+              src="https://player.vimeo.com/video/813543424?h=3e9f0fcc84&autoplay=1&loop=1&muted=1&background=1" 
+              frameborder="0" 
+              allow="autoplay; fullscreen; picture-in-picture" 
+              allowfullscreen>
+            </iframe>
+          </div>
         </div>
   
-        <div class="col">
-          <iframe 
-            src="https://player.vimeo.com/video/813543404?h=749b64eb28&autoplay=1&loop=1&muted=1&background=1" 
-            frameborder="0" 
-            class="embed-responsive-item w-100" 
-            style="height: 564px;" 
-            allow="autoplay; fullscreen; picture-in-picture" 
-            allowfullscreen>
-          </iframe>
+        <div class="col-4 d-flex justify-content-center align-items-center">
+          <div class="video-frame">
+            <iframe 
+              src="https://player.vimeo.com/video/813543404?h=749b64eb28&autoplay=1&loop=1&muted=1&background=1" 
+              frameborder="0" 
+              allow="autoplay; fullscreen; picture-in-picture" 
+              allowfullscreen>
+            </iframe>
+          </div>
         </div>
   
-        <div class="col">
-          <iframe 
-            src="https://player.vimeo.com/video/813543331?h=c44eff5a9e&autoplay=1&loop=1&muted=1&background=1" 
-            frameborder="0" 
-            class="embed-responsive-item w-100" 
-            style="height: 564px;" 
-            allow="autoplay; fullscreen; picture-in-picture" 
-            allowfullscreen>
-          </iframe>
+        <div class="col-4 d-flex justify-content-center align-items-center">
+          <div class="video-frame">
+            <iframe 
+              src="https://player.vimeo.com/video/813543331?h=c44eff5a9e&autoplay=1&loop=1&muted=1&background=1" 
+              frameborder="0" 
+              allow="autoplay; fullscreen; picture-in-picture" 
+              allowfullscreen>
+            </iframe>
+          </div>
         </div>
   
-        <div class="col">
-          <iframe 
-            src="https://player.vimeo.com/video/813543085?h=677a2f967a&autoplay=1&loop=1&muted=1&background=1" 
-            frameborder="0" 
-            class="embed-responsive-item w-100" 
-            style="height: 564px;" 
-            allow="autoplay; fullscreen; picture-in-picture" 
-            allowfullscreen>
-          </iframe>
+        <div class="col-4 d-flex justify-content-center align-items-center">
+          <div class="video-frame">
+            <iframe 
+              src="https://player.vimeo.com/video/813543085?h=677a2f967a&autoplay=1&loop=1&muted=1&background=1" 
+              frameborder="0" 
+              allow="autoplay; fullscreen; picture-in-picture" 
+              allowfullscreen>
+            </iframe>
+          </div>
         </div>
   
-        <div class="col">
-          <iframe 
-            src="https://player.vimeo.com/video/815461436?h=4f9eaf00e9&autoplay=1&loop=1&muted=1&background=1" 
-            frameborder="0" 
-            class="embed-responsive-item w-100" 
-            style="height: 564px;" 
-            allow="autoplay; fullscreen; picture-in-picture" 
-            allowfullscreen>
-          </iframe>
+        <div class="col-4 d-flex justify-content-center align-items-center">
+          <div class="video-frame">
+            <iframe 
+              src="https://player.vimeo.com/video/815461436?h=4f9eaf00e9&autoplay=1&loop=1&muted=1&background=1" 
+              frameborder="0" 
+              allow="autoplay; fullscreen; picture-in-picture" 
+              allowfullscreen>
+            </iframe>
+          </div>
         </div>
       </div>
     </div>
@@ -83,15 +83,26 @@
     color: #fff;
     margin-bottom: 20px;
   }
+  .video-frame {
+    position: relative;
+    width: 500px;
+    height: 600px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   iframe {
     border: none;
-    display: block;
+    position: absolute;
+    top: -30%;
+    left: -30%;
+    width: 160%;
+    height: 160%;
   }
-  .row-cols-1 {
-    margin: 0;
-  }
-  .row-cols-md-3 {
-    margin: 0;
+  .row {
+    gap: 0;
   }
   </style>
   
