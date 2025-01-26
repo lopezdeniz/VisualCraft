@@ -3,7 +3,7 @@
       <h2 id="port" class="text-center text-uppercase color mb-4 top-20 text-white">Showreel</h2>
   
       <div class="row gx-0 justify-content-center">
-        <div class="col-4 d-flex justify-content-center align-items-center">
+        <div class="col-12 col-md-4 d-flex justify-content-center align-items-center">
           <div class="video-frame">
             <iframe 
               src="https://player.vimeo.com/video/813543302?h=1271de0c61&autoplay=1&loop=1&muted=1&background=1" 
@@ -14,7 +14,7 @@
           </div>
         </div>
   
-        <div class="col-4 d-flex justify-content-center align-items-center">
+        <div class="col-12 col-md-4 d-flex justify-content-center align-items-center">
           <div class="video-frame">
             <iframe 
               src="https://player.vimeo.com/video/813543424?h=3e9f0fcc84&autoplay=1&loop=1&muted=1&background=1" 
@@ -25,7 +25,7 @@
           </div>
         </div>
   
-        <div class="col-4 d-flex justify-content-center align-items-center">
+        <div class="col-12 col-md-4 d-flex justify-content-center align-items-center">
           <div class="video-frame">
             <iframe 
               src="https://player.vimeo.com/video/813543404?h=749b64eb28&autoplay=1&loop=1&muted=1&background=1" 
@@ -36,7 +36,7 @@
           </div>
         </div>
   
-        <div class="col-4 d-flex justify-content-center align-items-center">
+        <div class="col-12 col-md-4 d-flex justify-content-center align-items-center">
           <div class="video-frame">
             <iframe 
               src="https://player.vimeo.com/video/813543331?h=c44eff5a9e&autoplay=1&loop=1&muted=1&background=1" 
@@ -47,7 +47,7 @@
           </div>
         </div>
   
-        <div class="col-4 d-flex justify-content-center align-items-center">
+        <div class="col-12 col-md-4 d-flex justify-content-center align-items-center">
           <div class="video-frame">
             <iframe 
               src="https://player.vimeo.com/video/813543085?h=677a2f967a&autoplay=1&loop=1&muted=1&background=1" 
@@ -58,7 +58,7 @@
           </div>
         </div>
   
-        <div class="col-4 d-flex justify-content-center align-items-center">
+        <div class="col-12 col-md-4 d-flex justify-content-center align-items-center">
           <div class="video-frame">
             <iframe 
               src="https://player.vimeo.com/video/815461436?h=4f9eaf00e9&autoplay=1&loop=1&muted=1&background=1" 
@@ -104,6 +104,12 @@
   }
   .row {
     gap: 0;
+  }
+  @media (max-width: 768px) {
+    .col-md-4 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
   }
   </style>
   
