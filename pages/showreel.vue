@@ -9,9 +9,9 @@
           :key="video.id">
           <div class="video-frame">
             <iframe 
-              :src="video.url" 
+              :src="video.playing ? video.urlWithAutoplay : video.url" 
               frameborder="0" 
-              allow="fullscreen; picture-in-picture" 
+              allow="autoplay; fullscreen; picture-in-picture" 
               allowfullscreen
               :id="'video-' + video.id">
             </iframe>
@@ -28,20 +28,18 @@
   import { reactive } from "vue";
   
   const videos = reactive([
-    { id: 1, url: "https://player.vimeo.com/video/813543302?h=1271de0c61&loop=1", playing: false },
-    { id: 2, url: "https://player.vimeo.com/video/813543424?h=3e9f0fcc84&loop=1", playing: false },
-    { id: 3, url: "https://player.vimeo.com/video/813543404?h=749b64eb28&loop=1", playing: false },
-    { id: 4, url: "https://player.vimeo.com/video/813543331?h=c44eff5a9e&loop=1", playing: false },
-    { id: 5, url: "https://player.vimeo.com/video/813543085?h=677a2f967a&loop=1", playing: false },
-    { id: 6, url: "https://player.vimeo.com/video/815461436?h=4f9eaf00e9&loop=1", playing: false },
+    { id: 1, url: "https://player.vimeo.com/video/813543302?h=1271de0c61&loop=1", urlWithAutoplay: "https://player.vimeo.com/video/813543302?h=1271de0c61&loop=1&autoplay=1", playing: false },
+    { id: 2, url: "https://player.vimeo.com/video/813543424?h=3e9f0fcc84&loop=1", urlWithAutoplay: "https://player.vimeo.com/video/813543424?h=3e9f0fcc84&loop=1&autoplay=1", playing: false },
+    { id: 3, url: "https://player.vimeo.com/video/813543404?h=749b64eb28&loop=1", urlWithAutoplay: "https://player.vimeo.com/video/813543404?h=749b64eb28&loop=1&autoplay=1", playing: false },
+    { id: 4, url: "https://player.vimeo.com/video/813543331?h=c44eff5a9e&loop=1", urlWithAutoplay: "https://player.vimeo.com/video/813543331?h=c44eff5a9e&loop=1&autoplay=1", playing: false },
+    { id: 5, url: "https://player.vimeo.com/video/813543085?h=677a2f967a&loop=1", urlWithAutoplay: "https://player.vimeo.com/video/813543085?h=677a2f967a&loop=1&autoplay=1", playing: false },
+    { id: 6, url: "https://player.vimeo.com/video/815461436?h=4f9eaf00e9&loop=1", urlWithAutoplay: "https://player.vimeo.com/video/815461436?h=4f9eaf00e9&loop=1&autoplay=1", playing: false },
   ]);
   
   function playVideo(id) {
     const video = videos.find(v => v.id === id);
-    if (video) {
+    if (video && !video.playing) {
       video.playing = true;
-      const iframe = document.getElementById(`video-${id}`);
-      iframe.src += "&autoplay=1";
     }
   }
   </script>
