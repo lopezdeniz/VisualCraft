@@ -7,7 +7,11 @@
           class="col-12 col-md-4 d-flex justify-content-center align-items-center" 
           v-for="video in videos" 
           :key="video.id">
-          <div class="video-frame pulsating-border" @click="playVideo(video.id, $event)">
+          <div 
+            class="video-frame" 
+            :class="{ 'pulsating-border': video.playing }" 
+            @click="playVideo(video.id, $event)" 
+            @touchstart="touchToPlay(video.id, $event)">
             <iframe 
               :src="video.url" 
               frameborder="0" 
@@ -42,7 +46,15 @@
       video.playing = true;
       const iframe = document.getElementById(`video-${id}`);
       iframe.src += "&autoplay=1";
-      event.currentTarget.classList.remove("pulsating-border");
+      event.currentTarget.classList.add("pulsating-border");
+    }
+  }
+  
+  function touchToPlay(id, event) {
+    const video = videos.find(v => v.id === id);
+    if (video && !video.playing) {
+      event.preventDefault();
+      playVideo(id, event);
     }
   }
   </script>
@@ -65,7 +77,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 4px solid transparent;
     background: linear-gradient(45deg, #bae8ea, #96d7dc);
   }
   
@@ -80,6 +91,7 @@
   
   .pulsating-border {
     animation: pulsate 1.5s infinite;
+    border: 4px solid #8acccf;
   }
   
   @keyframes pulsate {
