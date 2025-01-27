@@ -6,9 +6,9 @@
         <div class="col-12 col-md-4 d-flex justify-content-center align-items-center">
           <div class="video-frame">
             <iframe 
-              src="https://player.vimeo.com/video/813543302?h=1271de0c61&autoplay=1&loop=1&muted=1&background=1" 
+              src="https://player.vimeo.com/video/813543302?h=1271de0c61" 
               frameborder="0" 
-              allow="autoplay; fullscreen; picture-in-picture" 
+              allow="fullscreen; picture-in-picture" 
               allowfullscreen>
             </iframe>
           </div>
@@ -17,9 +17,9 @@
         <div class="col-12 col-md-4 d-flex justify-content-center align-items-center">
           <div class="video-frame">
             <iframe 
-              src="https://player.vimeo.com/video/813543424?h=3e9f0fcc84&autoplay=1&loop=1&muted=1&background=1" 
+              src="https://player.vimeo.com/video/813543424?h=3e9f0fcc84" 
               frameborder="0" 
-              allow="autoplay; fullscreen; picture-in-picture" 
+              allow="fullscreen; picture-in-picture" 
               allowfullscreen>
             </iframe>
           </div>
@@ -28,9 +28,9 @@
         <div class="col-12 col-md-4 d-flex justify-content-center align-items-center">
           <div class="video-frame">
             <iframe 
-              src="https://player.vimeo.com/video/813543404?h=749b64eb28&autoplay=1&loop=1&muted=1&background=1" 
+              src="https://player.vimeo.com/video/813543404?h=749b64eb28" 
               frameborder="0" 
-              allow="autoplay; fullscreen; picture-in-picture" 
+              allow="fullscreen; picture-in-picture" 
               allowfullscreen>
             </iframe>
           </div>
@@ -39,9 +39,9 @@
         <div class="col-12 col-md-4 d-flex justify-content-center align-items-center">
           <div class="video-frame">
             <iframe 
-              src="https://player.vimeo.com/video/813543331?h=c44eff5a9e&autoplay=1&loop=1&muted=1&background=1" 
+              src="https://player.vimeo.com/video/813543331?h=c44eff5a9e" 
               frameborder="0" 
-              allow="autoplay; fullscreen; picture-in-picture" 
+              allow="fullscreen; picture-in-picture" 
               allowfullscreen>
             </iframe>
           </div>
@@ -50,9 +50,9 @@
         <div class="col-12 col-md-4 d-flex justify-content-center align-items-center">
           <div class="video-frame">
             <iframe 
-              src="https://player.vimeo.com/video/813543085?h=677a2f967a&autoplay=1&loop=1&muted=1&background=1" 
+              src="https://player.vimeo.com/video/813543085?h=677a2f967a" 
               frameborder="0" 
-              allow="autoplay; fullscreen; picture-in-picture" 
+              allow="fullscreen; picture-in-picture" 
               allowfullscreen>
             </iframe>
           </div>
@@ -61,9 +61,9 @@
         <div class="col-12 col-md-4 d-flex justify-content-center align-items-center">
           <div class="video-frame">
             <iframe 
-              src="https://player.vimeo.com/video/815461436?h=4f9eaf00e9&autoplay=1&loop=1&muted=1&background=1" 
+              src="https://player.vimeo.com/video/815461436?h=4f9eaf00e9" 
               frameborder="0" 
-              allow="autoplay; fullscreen; picture-in-picture" 
+              allow="fullscreen; picture-in-picture" 
               allowfullscreen>
             </iframe>
           </div>
