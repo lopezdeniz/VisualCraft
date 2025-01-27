@@ -66,7 +66,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(45deg, #bae8ea, #96d7dc);
+ 
   }
   
   iframe {
