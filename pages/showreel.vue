@@ -25,7 +25,7 @@
   </template>
   
   <script setup>
-  import { reactive } from "vue";
+  import { reactive, nextTick } from "vue";
   
   const videos = reactive([
     { id: 1, url: "https://player.vimeo.com/video/813543302?h=1271de0c61&loop=1", urlWithAutoplay: "https://player.vimeo.com/video/813543302?h=1271de0c61&loop=1&autoplay=1", playing: false },
@@ -40,6 +40,10 @@
     const video = videos.find(v => v.id === id);
     if (video && !video.playing) {
       video.playing = true;
+      nextTick(() => {
+        const iframe = document.getElementById(`video-${id}`);
+        iframe.src = video.urlWithAutoplay; // Обновляем URL для корректного запуска
+      });
     }
   }
   </script>
