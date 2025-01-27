@@ -7,19 +7,15 @@
           class="col-12 col-md-4 d-flex justify-content-center align-items-center" 
           v-for="video in videos" 
           :key="video.id">
-          <div 
-            class="video-frame" 
-            :class="{ 'pulsating-border': video.playing }" 
-            @click="playVideo(video.id, $event)" 
-            @touchstart="touchToPlay(video.id, $event)">
+          <div class="video-frame">
             <iframe 
               :src="video.url" 
               frameborder="0" 
-              allow="autoplay; fullscreen; picture-in-picture" 
+              allow="fullscreen; picture-in-picture" 
               allowfullscreen
               :id="'video-' + video.id">
             </iframe>
-            <div class="overlay" :class="{ hidden: video.playing }">
+            <div class="overlay" :class="{ hidden: video.playing }" @click="playVideo(video.id)">
               <div class="play-icon"></div>
             </div>
           </div>
@@ -40,21 +36,12 @@
     { id: 6, url: "https://player.vimeo.com/video/815461436?h=4f9eaf00e9&loop=1", playing: false },
   ]);
   
-  function playVideo(id, event) {
+  function playVideo(id) {
     const video = videos.find(v => v.id === id);
     if (video) {
       video.playing = true;
       const iframe = document.getElementById(`video-${id}`);
       iframe.src += "&autoplay=1";
-      event.currentTarget.classList.add("pulsating-border");
-    }
-  }
-  
-  function touchToPlay(id, event) {
-    const video = videos.find(v => v.id === id);
-    if (video && !video.playing) {
-      event.preventDefault();
-      playVideo(id, event);
     }
   }
   </script>
@@ -89,23 +76,6 @@
     height: 160%;
   }
   
-  .pulsating-border {
-    animation: pulsate 1.5s infinite;
-    border: 4px solid #8acccf;
-  }
-  
-  @keyframes pulsate {
-    0% {
-      box-shadow: 0 0 0 0 rgba(138, 204, 209, 0.8);
-    }
-    50% {
-      box-shadow: 0 0 15px 5px rgba(138, 204, 209, 0.6);
-    }
-    100% {
-      box-shadow: 0 0 0 0 rgba(138, 204, 209, 0.8);
-    }
-  }
-  
   .overlay {
     position: absolute;
     top: 0;
@@ -120,15 +90,11 @@
     opacity: 1;
     transition: opacity 0.3s ease;
     z-index: 2;
+    cursor: pointer;
   }
   
   .overlay.hidden {
     display: none;
-  }
-  
-  .video-frame:hover .overlay,
-  .video-frame:focus .overlay {
-    opacity: 1;
   }
   
   .play-icon {
