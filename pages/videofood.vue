@@ -1,6 +1,6 @@
 <template>
     <div class="container text-center justify-content-center video-gallery">
-      <h1 class="gallery-title">Video Showcase</h1>
+     
       <div class="row gx-4 gy-4 justify-content-center">
         <!-- Loop through videos -->
         <div 
