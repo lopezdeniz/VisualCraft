@@ -1,6 +1,6 @@
 <template>
     <div class="container text-center justify-content-center">
-      <h2 id="port" class="text-center text-uppercase color mb-4 top-20 text-white">Showreel</h2>
+     
   
       <div class="row gx-0 justify-content-center">
         <div 

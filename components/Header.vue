@@ -1,14 +1,33 @@
 <template>
 
-<header class="header">
+<header class="header  py-3">
   <div class="container d-flex justify-content-between align-items-center">
-    <div class="name">Deniz Lopez</div>
-    <div class="contacts">
-      <a href="mailto:example@example.com">example@example.com</a>
-      <a href="tel:+1234567890" class="ms-3">+1 234 567 890</a>
+    <!-- Имя слева -->
+    <div class="name">
+      <h1 class="m-0">Deniz Lopez</h1>
+    </div>
+
+    <!-- Email и телефон по центру -->
+    <div class="contacts text-center">
+      <a class="d-block mb-1" href="mailto:example@example.com">example@example.com</a>
+      <a class="d-block" href="tel:+1234567890">+1 234 567 890</a>
+    </div>
+
+    <!-- Социальные сети справа -->
+    <div class="social-media d-flex align-items-center">
+      <a href="https://t.me/yourtelegram" target="_blank" class="text-dark me-3">
+        <i class="bi bi-telegram" style="font-size: 2rem;"></i>
+      </a>
+      <a href="https://wa.me/1234567890" target="_blank" class="text-dark me-3">
+        <i class="bi bi-whatsapp" style="font-size: 2rem;"></i>
+      </a>
+      <a href="https://instagram.com/yourinstagram" target="_blank" class="text-dark">
+        <i class="bi bi-instagram" style="font-size: 2rem;"></i>
+      </a>
     </div>
   </div>
 </header>
+
 
   </template>
   
