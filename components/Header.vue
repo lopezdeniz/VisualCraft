@@ -20,7 +20,7 @@
       <a href="https://wa.me/9297606765" target="_blank" class="text-dark me-3">
         <i class="bi bi-whatsapp" style="font-size: 2rem;"></i>
       </a>
-      <a href="https://instagram.com/misterfotoworld" target="_blank" class="text-dark">
+      <a href="https://instagram.com/misterphotoworld/" target="_blank" class="text-dark">
         <i class="bi bi-instagram" style="font-size: 2rem;"></i>
       </a>
     </div>
