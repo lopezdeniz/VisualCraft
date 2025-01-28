@@ -1,20 +1,19 @@
 <template>
-
-<header class="header  py-3">
-  <div class="container d-flex justify-content-between align-items-center">
-    <!-- Имя слева -->
+<header class="header py-3">
+  <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+    <!-- Имя -->
     <div class="name">
-      <h1 class="m-0">Deniz Lopez</h1>
+      <h2 class="m-0 text-center text-md-start">Deniz Lopez</h2>
     </div>
 
-    <!-- Email и телефон по центру -->
-    <div class="contacts text-center">
+    <!-- Email и телефон -->
+    <div class="contacts text-center mt-3 mt-md-0">
       <a class="d-block mb-1" href="mailto:example@example.com">example@example.com</a>
       <a class="d-block" href="tel:+1234567890">+1 234 567 890</a>
     </div>
 
-    <!-- Социальные сети справа -->
-    <div class="social-media d-flex align-items-center">
+    <!-- Социальные сети -->
+    <div class="social-media d-flex justify-content-center justify-content-md-end align-items-center mt-3 mt-md-0">
       <a href="https://t.me/yourtelegram" target="_blank" class="text-dark me-3">
         <i class="bi bi-telegram" style="font-size: 2rem;"></i>
       </a>
@@ -70,5 +69,23 @@
   .contacts a:hover {
     color: #6e7b8b; /* Цвет при наведении */
   }
+
+
+
+  /* Адаптация для мобильных устройств */
+@media (max-width: 768px) {
+  .header .name {
+    text-align: center;
+  }
+
+  .header .contacts {
+    margin-top: 1rem;
+  }
+
+  .header .social-media {
+    margin-top: 1rem;
+    justify-content: center;
+  }
+}
   </style>
   
