@@ -9,7 +9,7 @@
     <!-- Email и телефон -->
     <div class="contacts text-center mt-3 mt-md-0">
       <a class="d-block mb-1" href="mailto:example@example.com">misterleandr@gmail.com</a>
-      <a class="d-block" href="tel:+1234567890">+1 929 760 6765</a>
+      <a class="d-block" href="tel:9297606765">+1 929 760 6765</a>
     </div>
 
     <!-- Социальные сети -->
