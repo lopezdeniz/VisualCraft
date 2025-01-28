@@ -302,6 +302,34 @@
 </div>  
   </template>
   
+  <script setup>
+  import { onMounted, onUpdated } from "vue";
+  
+  const initializeCarousels = () => {
+    const carousels = document.querySelectorAll(".carousel");
+    carousels.forEach((carousel) => {
+      new bootstrap.Carousel(carousel, {
+        interval: 3000, // Интервал между слайдами
+        ride: "carousel", // Автоматический запуск
+      });
+    });
+  };
+  
+  onMounted(() => {
+    initializeCarousels();
+  });
+  
+  // Если компонент обновляется или переключается между вкладками, инициализируем карусели снова
+  onUpdated(() => {
+    initializeCarousels();
+  });
+  </script>
+  
+
+
+
+
+
   <style>
   .my-container {
     max-width: 2000px;
