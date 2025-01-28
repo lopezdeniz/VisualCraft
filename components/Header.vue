@@ -14,13 +14,13 @@
 
     <!-- Социальные сети -->
     <div class="social-media d-flex justify-content-center justify-content-md-end align-items-center mt-3 mt-md-0">
-      <a href="https://t.me/yourtelegram" target="_blank" class="text-dark me-3">
+      <a href="https://t.me/lopezdeniz" target="_blank" class="text-dark me-3">
         <i class="bi bi-telegram" style="font-size: 2rem;"></i>
       </a>
-      <a href="https://wa.me/1234567890" target="_blank" class="text-dark me-3">
+      <a href="https://wa.me/9297606765" target="_blank" class="text-dark me-3">
         <i class="bi bi-whatsapp" style="font-size: 2rem;"></i>
       </a>
-      <a href="https://instagram.com/yourinstagram" target="_blank" class="text-dark">
+      <a href="https://instagram.com/misterfotoworld" target="_blank" class="text-dark">
         <i class="bi bi-instagram" style="font-size: 2rem;"></i>
       </a>
     </div>
