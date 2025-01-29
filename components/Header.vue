@@ -9,7 +9,7 @@
     <!-- Email и телефон -->
     <div class="contacts text-center mt-3 mt-md-0">
       <a class="d-block mb-1" href="mailto:example@example.com">misterleandr@gmail.com</a>
-      <a class="d-block" href="tel:9297606765">+1 929 760 6765</a>
+      <a class="d-block" href="tel:+19297606765">+19297606765</a>
     </div>
 
     <!-- Социальные сети -->
@@ -17,7 +17,7 @@
       <a href="https://t.me/lopezdeniz" target="_blank" class="text-dark me-3">
         <i class="bi bi-telegram" style="font-size: 2rem;"></i>
       </a>
-      <a href="https://wa.me/9297606765" target="_blank" class="text-dark me-3">
+      <a href="https://wa.me/+19297606765" target="_blank" class="text-dark me-3">
         <i class="bi bi-whatsapp" style="font-size: 2rem;"></i>
       </a>
       <a href="https://instagram.com/misterphotoworld/" target="_blank" class="text-dark">

@@ -4,7 +4,7 @@
         <!-- Левая часть: почта и телефон -->
         <div class="contact-info">
           <p class="mb-0">Email: <a href="mailto:example@example.com" class="text-dark">misterleandr@gmail.com</a></p>
-          <p class="mb-0">Phone: <a href="tel:9297606765" class="text-dark">+1 929 760 6765</a></p>
+          <p class="mb-0">Phone: <a href="tel:+19297606765" class="text-dark">+19297606765</a></p>
         </div>
   
         <!-- Правая часть: иконки Telegram и WhatsApp -->
@@ -12,7 +12,7 @@
           <a href="https://t.me/lopezdeniz" target="_blank" class="text-dark me-3">
         <i class="bi bi-telegram" style="font-size: 2rem;"></i>
       </a>
-      <a href="https://wa.me/9297606765" target="_blank" class="text-dark me-3">
+      <a href="https://wa.me/+19297606765" target="_blank" class="text-dark me-3">
         <i class="bi bi-whatsapp" style="font-size: 2rem;"></i>
       </a>
       <a href="https://instagram.com/misterphotoworld/" target="_blank" class="text-dark">
