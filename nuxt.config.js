@@ -9,7 +9,7 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: 'My Nuxt App', // Название страницы
+      title: 'Portfolio', // Название страницы
       meta: [
         { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }, // Адаптивность
         { name: 'description', content: 'Описание вашего сайта' } // SEO описание
